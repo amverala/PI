@@ -1,7 +1,7 @@
-site_name: Desarrollo Web en Entorno Servidor
+site_name: Proyecto Intermodular I
 #site_description: Unidad 1 · Estructura y significado del contenido digital
 copyright: |
-   Material docente de Desarrollo Web en Entorno Servidor
+   Material docente de Proyecto Intermodular I para DAW
 
 theme:
   name: material
@@ -46,7 +46,6 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
   - toc:

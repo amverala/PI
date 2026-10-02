@@ -1,9 +1,9 @@
+title: Unidad 1. Introducción al Proyecto Intermodular
 
 nav:
-    - index.md
-    - introduccion.md
-    - sistemas-operativos.md
-    - cliente-servidor.md
-    - servidor-local.md
-    - visual-studio-code.md
-    - actividades.md
+  - index.md
+  - que-es-el-proyecto.md
+  - organizacion-del-modulo.md
+  - competencias.md
+  - memoria-final.md
+  - resultado-esperado.md

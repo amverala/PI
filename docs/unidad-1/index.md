@@ -1,73 +1,34 @@
-# Unidad 1. Plataformas de programación web en entorno servidor
+# Unidad 1 · Introducción al Proyecto Intermodular
 
-En esta primera unidad conocerás las plataformas y herramientas fundamentales que utilizan los desarrolladores web profesionales para crear aplicaciones en entorno servidor.
+!!! info "Bienvenido/a"
+    Esta unidad te ayudará a comprender qué es el Proyecto Intermodular, cómo se va a desarrollar durante el curso y qué deberás entregar al finalizar.
 
-El desarrollo web moderno está presente en prácticamente todos los servicios que utilizamos diariamente: plataformas de vídeo bajo demanda, redes sociales, tiendas online, aplicaciones bancarias o plataformas educativas.
+## Objetivos de aprendizaje
 
-Aunque los usuarios únicamente interactúan con una página web o una aplicación, detrás de cada una de ellas existe una infraestructura compuesta por sistemas operativos, servidores, bases de datos y herramientas de desarrollo que permiten que todo funcione correctamente.
+- Comprender la finalidad del proyecto.
+- Diferenciar entre diseñar y desarrollar.
+- Conocer la estructura general de la memoria.
+- Identificar las fases del trabajo.
 
-Durante esta unidad prepararemos nuestro entorno de trabajo y conoceremos los conceptos fundamentales que servirán de base para el resto del módulo.
+## Mapa de la unidad
 
----
+```mermaid
+flowchart LR
+A[Proyecto Intermodular] --> B[Organización]
+B --> C[Competencias]
+C --> D[Memoria]
+D --> E[Resultado Final]
+```
 
-## ¿Qué aprenderás?
+## Situación de partida
 
-Al finalizar esta unidad serás capaz de:
+??? question "Reflexiona antes de continuar"
 
-✅ Identificar los principales sistemas operativos utilizados en desarrollo web.
+    ¿Qué pasos serían necesarios para crear una aplicación web útil para usuarios reales?
 
-✅ Comprender el modelo cliente-servidor.
+## Actividad 0
 
-✅ Entender el papel de los servidores web.
+Redacta en una frase una posible idea de proyecto.
 
-✅ Instalar un servidor local para realizar pruebas.
-
-✅ Configurar Visual Studio Code para desarrollar aplicaciones web.
-
-✅ Preparar tu entorno de trabajo para comenzar a programar con PHP.
-
----
-
-## Contenidos de la unidad
-
-### Sistemas Operativos
-
-- Windows
-- Linux
-- macOS
-- Ubuntu como entorno de trabajo
-
-### Relación Cliente-Servidor
-
-- Qué es un cliente.
-- Qué es un servidor.
-- Cómo se comunican.
-- Cómo se procesan las peticiones y respuestas.
-
-### Servidor Local
-
-- XAMPP
-- WAMP
-- Apache
-- PHP
-- MySQL
-
-### Visual Studio Code
-
-- Instalación del IDE.
-- Gestión de proyectos.
-- Extensiones para PHP.
-- Terminal integrada.
-
----
-
-
-## Duración
-
-**1 semana**
-
-## Resultado esperado
-
-- Servidor local instalado.
-- Visual Studio Code configurado.
-- Entorno preparado para comenzar PHP en la siguiente unidad.
+!!! tip
+    No pienses todavía en tecnologías. Piensa primero en un problema a resolver.
