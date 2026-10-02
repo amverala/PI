@@ -1,0 +1,2291 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../usuarios-y-necesidades/">
+      
+      
+        <link rel="next" href="../alcance-inicial-del-proyecto/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>De la necesidad a la aplicación web - Proyecto Intermodular I</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#de-la-necesidad-a-la-aplicacion-web" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Proyecto Intermodular I" class="md-header__button md-logo" aria-label="Proyecto Intermodular I" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.6 16.6 4.6-4.6-4.6-4.6L16 6l6 6-6 6zm-5.2 0L4.8 12l4.6-4.6L8 6l-6 6 6 6z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Proyecto Intermodular I
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              De la necesidad a la aplicación web
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Proyecto Intermodular I" class="md-nav__button md-logo" aria-label="Proyecto Intermodular I" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.6 16.6 4.6-4.6-4.6-4.6L16 6l6 6-6 6zm-5.2 0L4.8 12l4.6-4.6L8 6l-6 6 6 6z"/></svg>
+
+    </a>
+    Proyecto Intermodular I
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto Intermodular I · 1.º DAW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidad 1. Introducción al Proyecto Intermodular
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unidad 1. Introducción al Proyecto Intermodular
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidad 1 · Introducción al Proyecto Intermodular
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/que-es-el-proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ¿Qué es el Proyecto Intermodular?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/organizacion-del-modulo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organización del módulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/competencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competencias que desarrollarás
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/memoria-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    La memoria final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unidad-1/resultado-esperado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultado esperado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidad 2. Definición del proyecto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unidad 2. Definición del proyecto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unidad 2 · Definición del proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../como-nace-un-proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ¿Cómo nace un proyecto?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../identificar-problemas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Identificar problemas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usuarios-y-necesidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usuarios y necesidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    De la necesidad a la aplicación web
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    De la necesidad a la aplicación web
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#las-aplicaciones-web-son-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las aplicaciones web son herramientas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Las aplicaciones web son herramientas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#del-problema-a-la-solucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Del problema a la solución
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Del problema a la solución">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacion-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aplicación web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beneficios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#producto-minimo-viable-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Producto Mínimo Viable (MVP)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Producto Mínimo Viable (MVP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-un-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es un MVP?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-reservas-deportivas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: reservas deportivas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplo: reservas deportivas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-1-biblioteca-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 1 · Biblioteca escolar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 1 · Biblioteca escolar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuarios_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-2-gestion-de-incidencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 2 · Gestión de incidencias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 2 · Gestión de incidencias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-3-inventario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 3 · Inventario
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 3 · Inventario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-frecuente-demasiadas-funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error frecuente: demasiadas funcionalidades
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error frecuente: demasiadas funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solucion-razonable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solución razonable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solucion-excesiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solución excesiva
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-1-disena-una-solucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 1 · Diseña una solución
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividad 1 · Diseña una solución">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-2-define-el-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 2 · Define el MVP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividad 2 · Define el MVP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-3-funcionalidad-o-mejora-futura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 3 · Funcionalidad o mejora futura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-de-redaccion-para-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplos de redacción para la memoria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-aparecera-esto-en-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Cómo aparecerá esto en la memoria?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Cómo aparecerá esto en la memoria?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plantilla-reutilizable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plantilla reutilizable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-que-ira-a-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que irá a la memoria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alcance-inicial-del-proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alcance inicial del proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejemplos-de-proyectos-daw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ejemplos de proyectos DAW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definicion-objetivos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Definición de objetivos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejemplo-completo-proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ejemplo completo de proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#las-aplicaciones-web-son-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las aplicaciones web son herramientas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Las aplicaciones web son herramientas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#del-problema-a-la-solucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Del problema a la solución
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Del problema a la solución">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacion-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aplicación web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beneficios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#producto-minimo-viable-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Producto Mínimo Viable (MVP)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Producto Mínimo Viable (MVP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-un-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es un MVP?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-reservas-deportivas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: reservas deportivas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplo: reservas deportivas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-1-biblioteca-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 1 · Biblioteca escolar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 1 · Biblioteca escolar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuarios_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-2-gestion-de-incidencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 2 · Gestión de incidencias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 2 · Gestión de incidencias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caso-practico-3-inventario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso práctico 3 · Inventario
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso práctico 3 · Inventario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvp_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mejoras-futuras_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mejoras futuras
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-frecuente-demasiadas-funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error frecuente: demasiadas funcionalidades
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error frecuente: demasiadas funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solucion-razonable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solución razonable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solucion-excesiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solución excesiva
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-1-disena-una-solucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 1 · Diseña una solución
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividad 1 · Diseña una solución">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-2-define-el-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 2 · Define el MVP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividad 2 · Define el MVP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-3-funcionalidad-o-mejora-futura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 3 · Funcionalidad o mejora futura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-de-redaccion-para-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplos de redacción para la memoria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-aparecera-esto-en-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Cómo aparecerá esto en la memoria?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Cómo aparecerá esto en la memoria?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plantilla-reutilizable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plantilla reutilizable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lo-que-ira-a-la-memoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que irá a la memoria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="de-la-necesidad-a-la-aplicacion-web">De la necesidad a la aplicación web<a class="headerlink" href="#de-la-necesidad-a-la-aplicacion-web" title="Permanent link">&para;</a></h1>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>Hasta ahora has identificado un problema y los usuarios afectados.</p>
+<p>La siguiente pregunta es:</p>
+<blockquote>
+<p>¿Cómo puede una aplicación web ayudar a resolver esa situación?</p>
+</blockquote>
+<p>Una aplicación web no es un objetivo en sí mismo. Es una herramienta para resolver problemas y aportar valor a los usuarios.</p>
+<pre class="mermaid"><code>flowchart LR
+A[Problema] --&gt; B[Usuarios]
+B --&gt; C[Necesidades]
+C --&gt; D[Aplicación Web]</code></pre>
+<hr />
+<h2 id="las-aplicaciones-web-son-herramientas">Las aplicaciones web son herramientas<a class="headerlink" href="#las-aplicaciones-web-son-herramientas" title="Permanent link">&para;</a></h2>
+<p>Una aplicación web debe existir porque ayuda a resolver una necesidad concreta.</p>
+<h3 id="ejemplo">Ejemplo<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h3>
+<p><strong>Problema</strong></p>
+<p>Los usuarios deben llamar para reservar instalaciones deportivas.</p>
+<p><strong>Solución</strong></p>
+<p>Portal web de reservas.</p>
+<p><strong>Beneficio</strong></p>
+<p>Los usuarios pueden gestionar las reservas sin depender del horario de atención telefónica.</p>
+<div class="admonition tip">
+<p class="admonition-title">Piensa siempre en el valor</p>
+<p>Si una funcionalidad no ayuda a resolver el problema principal, probablemente no sea imprescindible.</p>
+</div>
+<hr />
+<h2 id="del-problema-a-la-solucion">Del problema a la solución<a class="headerlink" href="#del-problema-a-la-solucion" title="Permanent link">&para;</a></h2>
+<h3 id="problema">Problema<a class="headerlink" href="#problema" title="Permanent link">&para;</a></h3>
+<p>Los alumnos no pueden consultar los libros disponibles de la biblioteca.</p>
+<h3 id="usuarios">Usuarios<a class="headerlink" href="#usuarios" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Alumnado.</li>
+<li>Profesorado.</li>
+</ul>
+<h3 id="aplicacion-web">Aplicación web<a class="headerlink" href="#aplicacion-web" title="Permanent link">&para;</a></h3>
+<p>Catálogo online de libros.</p>
+<h3 id="beneficios">Beneficios<a class="headerlink" href="#beneficios" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consulta inmediata.</li>
+<li>Acceso desde cualquier dispositivo.</li>
+<li>Menos trabajo administrativo.</li>
+</ul>
+<hr />
+<h2 id="producto-minimo-viable-mvp">Producto Mínimo Viable (MVP)<a class="headerlink" href="#producto-minimo-viable-mvp" title="Permanent link">&para;</a></h2>
+<h3 id="que-es-un-mvp">¿Qué es un MVP?<a class="headerlink" href="#que-es-un-mvp" title="Permanent link">&para;</a></h3>
+<p>El MVP (Producto Mínimo Viable) es la versión más sencilla de una aplicación que ya aporta valor al usuario.</p>
+<h3 id="ejemplo-reservas-deportivas">Ejemplo: reservas deportivas<a class="headerlink" href="#ejemplo-reservas-deportivas" title="Permanent link">&para;</a></h3>
+<h4 id="mvp">MVP<a class="headerlink" href="#mvp" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Registro de usuario.</li>
+<li>Consulta de horarios.</li>
+<li>Reserva de instalaciones.</li>
+</ul>
+<h4 id="mejoras-futuras">Mejoras futuras<a class="headerlink" href="#mejoras-futuras" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Pagos online.</li>
+<li>Notificaciones.</li>
+<li>Aplicación móvil.</li>
+</ul>
+<pre class="mermaid"><code>flowchart TD
+A[MVP] --&gt; B[Valor para el usuario]
+A --&gt; C[Viabilidad]
+A --&gt; D[Desarrollo controlado]</code></pre>
+<hr />
+<h2 id="caso-practico-1-biblioteca-escolar">Caso práctico 1 · Biblioteca escolar<a class="headerlink" href="#caso-practico-1-biblioteca-escolar" title="Permanent link">&para;</a></h2>
+<h3 id="problema_1">Problema<a class="headerlink" href="#problema_1" title="Permanent link">&para;</a></h3>
+<p>Los préstamos se registran manualmente.</p>
+<h3 id="usuarios_1">Usuarios<a class="headerlink" href="#usuarios_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Alumnado.</li>
+<li>Profesorado.</li>
+<li>Administrador.</li>
+</ul>
+<h3 id="mvp_1">MVP<a class="headerlink" href="#mvp_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Buscar libros.</li>
+<li>Consultar disponibilidad.</li>
+<li>Registrar préstamos.</li>
+<li>Registrar devoluciones.</li>
+</ul>
+<h3 id="mejoras-futuras_1">Mejoras futuras<a class="headerlink" href="#mejoras-futuras_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reservas online.</li>
+<li>Notificaciones automáticas.</li>
+<li>Estadísticas.</li>
+</ul>
+<hr />
+<h2 id="caso-practico-2-gestion-de-incidencias">Caso práctico 2 · Gestión de incidencias<a class="headerlink" href="#caso-practico-2-gestion-de-incidencias" title="Permanent link">&para;</a></h2>
+<h3 id="problema_2">Problema<a class="headerlink" href="#problema_2" title="Permanent link">&para;</a></h3>
+<p>Las incidencias se comunican mediante correos electrónicos.</p>
+<h3 id="mvp_2">MVP<a class="headerlink" href="#mvp_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Crear incidencia.</li>
+<li>Consultar estado.</li>
+<li>Actualizar información.</li>
+</ul>
+<h3 id="mejoras-futuras_2">Mejoras futuras<a class="headerlink" href="#mejoras-futuras_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Prioridades automáticas.</li>
+<li>Informes avanzados.</li>
+</ul>
+<hr />
+<h2 id="caso-practico-3-inventario">Caso práctico 3 · Inventario<a class="headerlink" href="#caso-practico-3-inventario" title="Permanent link">&para;</a></h2>
+<h3 id="problema_3">Problema<a class="headerlink" href="#problema_3" title="Permanent link">&para;</a></h3>
+<p>El inventario se controla mediante hojas de cálculo.</p>
+<h3 id="mvp_3">MVP<a class="headerlink" href="#mvp_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consultar stock.</li>
+<li>Registrar movimientos.</li>
+<li>Buscar productos.</li>
+</ul>
+<h3 id="mejoras-futuras_3">Mejoras futuras<a class="headerlink" href="#mejoras-futuras_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Generación automática de pedidos.</li>
+<li>Alertas de stock.</li>
+</ul>
+<hr />
+<h2 id="error-frecuente-demasiadas-funcionalidades">Error frecuente: demasiadas funcionalidades<a class="headerlink" href="#error-frecuente-demasiadas-funcionalidades" title="Permanent link">&para;</a></h2>
+<h3 id="problema_4">Problema<a class="headerlink" href="#problema_4" title="Permanent link">&para;</a></h3>
+<p>Reservar instalaciones deportivas.</p>
+<h3 id="solucion-razonable">Solución razonable<a class="headerlink" href="#solucion-razonable" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consultar horarios.</li>
+<li>Realizar reservas.</li>
+</ul>
+<h3 id="solucion-excesiva">Solución excesiva<a class="headerlink" href="#solucion-excesiva" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Red social.</li>
+<li>Chat integrado.</li>
+<li>Sistema de fidelización.</li>
+<li>Marketplace.</li>
+<li>Inteligencia artificial.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Evita el alcance excesivo</p>
+<p>Añadir muchas funcionalidades no siempre mejora el proyecto. En ocasiones lo hace inviable.</p>
+</div>
+<hr />
+<h2 id="actividad-1-disena-una-solucion">Actividad 1 · Diseña una solución<a class="headerlink" href="#actividad-1-disena-una-solucion" title="Permanent link">&para;</a></h2>
+<h3 id="problema_5">Problema<a class="headerlink" href="#problema_5" title="Permanent link">&para;</a></h3>
+<p>Los usuarios no pueden consultar el estado de las incidencias informáticas.</p>
+<details class="success">
+<summary>Solución orientativa</summary>
+<p>Aplicación web de gestión de incidencias.</p>
+<p>MVP:</p>
+<ul>
+<li>Crear incidencia.</li>
+<li>Consultar estado.</li>
+<li>Actualizar información.</li>
+</ul>
+</details>
+<hr />
+<h2 id="actividad-2-define-el-mvp">Actividad 2 · Define el MVP<a class="headerlink" href="#actividad-2-define-el-mvp" title="Permanent link">&para;</a></h2>
+<h3 id="problema_6">Problema<a class="headerlink" href="#problema_6" title="Permanent link">&para;</a></h3>
+<p>Biblioteca escolar.</p>
+<p>¿Qué funcionalidades son imprescindibles para una primera versión?</p>
+<details class="success">
+<summary>Solución orientativa</summary>
+<ul>
+<li>Buscar libros.</li>
+<li>Consultar disponibilidad.</li>
+<li>Registrar préstamos.</li>
+</ul>
+</details>
+<hr />
+<h2 id="actividad-3-funcionalidad-o-mejora-futura">Actividad 3 · Funcionalidad o mejora futura<a class="headerlink" href="#actividad-3-funcionalidad-o-mejora-futura" title="Permanent link">&para;</a></h2>
+<p>Clasifica:</p>
+<ul>
+<li>Reserva de instalaciones.</li>
+<li>Pago online.</li>
+<li>Consulta de horarios.</li>
+<li>Aplicación móvil.</li>
+</ul>
+<details class="success">
+<summary>Solución orientativa</summary>
+<p>MVP:</p>
+<ul>
+<li>Reserva de instalaciones.</li>
+<li>Consulta de horarios.</li>
+</ul>
+<p>Mejoras futuras:</p>
+<ul>
+<li>Pago online.</li>
+<li>Aplicación móvil.</li>
+</ul>
+</details>
+<hr />
+<h2 id="ejemplos-de-redaccion-para-la-memoria">Ejemplos de redacción para la memoria<a class="headerlink" href="#ejemplos-de-redaccion-para-la-memoria" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>❌ Pobre</td>
+<td>Quiero hacer una web de reservas.</td>
+</tr>
+<tr>
+<td>✅ Aceptable</td>
+<td>Aplicación web para gestionar reservas deportivas.</td>
+</tr>
+<tr>
+<td>⭐ Excelente</td>
+<td>Se propone desarrollar una aplicación web destinada a la gestión de reservas deportivas municipales, permitiendo consultar disponibilidad y reservar instalaciones de forma autónoma.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="como-aparecera-esto-en-la-memoria">¿Cómo aparecerá esto en la memoria?<a class="headerlink" href="#como-aparecera-esto-en-la-memoria" title="Permanent link">&para;</a></h2>
+<h3 id="plantilla-reutilizable">Plantilla reutilizable<a class="headerlink" href="#plantilla-reutilizable" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Para resolver el problema detectado se propone desarrollar...
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>La aplicación permitirá que...
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Los principales beneficios serán...
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>En una primera fase se incluirán...
+</code></pre></div>
+<h3 id="ejemplo_1">Ejemplo<a class="headerlink" href="#ejemplo_1" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Para resolver las dificultades existentes en la gestión de reservas deportivas se propone desarrollar una aplicación web que permita consultar la disponibilidad de instalaciones y realizar reservas online. La primera versión incluirá únicamente las funcionalidades esenciales para garantizar la viabilidad del proyecto.</p>
+</blockquote>
+<hr />
+<h2 id="lo-que-ira-a-la-memoria">Lo que irá a la memoria<a class="headerlink" href="#lo-que-ira-a-la-memoria" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>2.1. Descripción general del proyecto
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>- Solución propuesta.
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>- Beneficios esperados.
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>- Aplicación web planteada.
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>- Alcance inicial.
+</code></pre></div>
+<hr />
+<h2 id="autoevaluacion">Autoevaluación<a class="headerlink" href="#autoevaluacion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] He identificado el problema.</li>
+<li>[ ] Conozco a los usuarios.</li>
+<li>[ ] Sé qué aplicación web resolvería la necesidad.</li>
+<li>[ ] He definido un MVP.</li>
+<li>[ ] Evito funcionalidades innecesarias.</li>
+<li>[ ] Podría redactar este apartado en mi memoria.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../usuarios-y-necesidades/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Usuarios y necesidades">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Usuarios y necesidades
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../alcance-inicial-del-proyecto/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Alcance inicial del proyecto">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Alcance inicial del proyecto
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Material docente de Proyecto Intermodular I para DAW
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.footer", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="../../javascripts/mermaid-init.js"></script>
+      
+    
+  </body>
+</html>
