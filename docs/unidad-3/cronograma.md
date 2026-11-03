@@ -12,11 +12,8 @@ El tipo de cronograma más habitual es el **diagrama de Gantt**.
 
 ---
 
-## Un Gantt en Mermaid
+## Gantt 
 
-No necesitas ninguna herramienta nueva. Esta misma web dibuja diagramas de Gantt a partir de texto.
-
-````text
 ```mermaid
 gantt
     title Mi proyecto
@@ -28,26 +25,6 @@ gantt
     section Diseño
     Base de datos     :a2, after a1, 5d
 ```
-````
-
-### Qué significa cada línea
-
-| Línea | Significado |
-|--------|--------|
-| `dateFormat` | Formato en el que escribes las fechas. |
-| `axisFormat` | Cómo se muestran las fechas en el eje. |
-| `excludes weekends` | No cuenta sábados ni domingos. |
-| `section` | Agrupa tareas (una por fase). |
-| `a1` | Identificador de la tarea. |
-| `after a1` | La tarea empieza cuando termina `a1`. |
-| `5d` | Duración de 5 días. |
-| `milestone` | Marca un hito. |
-
-!!! tip "Dependencias con `after`"
-
-    Usar `after` en lugar de fechas fijas hace que el plan respete las dependencias y se reorganice solo si cambias una duración.
-
----
 
 ## Del horas a los días
 
