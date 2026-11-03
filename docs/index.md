@@ -47,22 +47,32 @@ E --> F[Memoria final]
 
 Conoce la finalidad del módulo, la estructura de la memoria y las competencias que desarrollarás.
 
-➡️ `unidad-1/`
-
+[Abrir unidad](unidad-1/){ .md-button }
 ---
 
 ### Unidad 2 · Definición del proyecto
 
 Aprenderás a identificar problemas, analizar usuarios, definir objetivos y delimitar el alcance de una aplicación web.
 
-➡️ `unidad-2/`
+[Abrir unidad](unidad-2/){ .md-button }
+---
 
+### Unidad 3 · Planificación temporal
+
+Aprenderás a organizar las tareas, fases e hitos del proyecto, estimar tiempos de desarrollo y elaborar una planificación realista para su ejecución.
+
+[Abrir unidad](unidad-3/){ .md-button }
+---
+
+### Unidad 4 · Análisis DAFO y CAME.
+
+Aprenderás a evaluar la situación de tu proyecto mediante el análisis DAFO y a plantear acciones de mejora utilizando la metodología CAME.
+
+[Abrir unidad](unidad-4/){ .md-button }
 ---
 
 ### Próximamente
 
-- Unidad 3 · Planificación temporal.
-- Unidad 4 · Análisis DAFO y CAME.
 - Unidad 5 · Estudio de viabilidad.
 - Unidad 6 · Elaboración de la memoria.
 
